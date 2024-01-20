@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+button {
+    font-size: 2.75em;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 31%);
+    transition: background-color 0.25s;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 40%);
+}
+
+#calculator {
+    background-color: hsl(0, 0%, 10%);
+    width: 20%;
+    margin: auto;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+#visibleNumber {
+    background-color: hsl(0, 0%, 93%);
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+#visibleNumber p {
+    font-size: 3.5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#historyChangeButtons div {
+    display: inline;
+}
+
+#clearButton {
+    margin-right: 5px;
+}
+
+#resetButton {
+    margin-left: 5px;
+}
+
+#historyChangeButtons div button {
+    width: auto;
+    margin-top: 7px;
+    font-size: 2.25em;
+}
+
+#calculatorButtons {
+    display: inline-flex;
+}
+
+#calculatorButtons button {
+    margin: 5px 5px;
+}
+
+#numberButtons {
+    display: inline-block;
+}
+
+#operationButtons {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#operationButtons button:focus {
+    background-color: hsl(0, 0%, 45%);
+}
